@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65E4D17919EA26BA00ECFC59 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 65E4D17819EA26BA00ECFC59 /* photo.jpg */; };
 		65F28B0219E9A32600E74D81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F28B0119E9A32600E74D81 /* AppDelegate.swift */; };
 		65F28B0419E9A32600E74D81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F28B0319E9A32600E74D81 /* ViewController.swift */; };
 		65F28B0719E9A32600E74D81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65F28B0519E9A32600E74D81 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65E4D17819EA26BA00ECFC59 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
 		65F28AFC19E9A32600E74D81 /* PhotoFilters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoFilters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65F28B0019E9A32600E74D81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65F28B0119E9A32600E74D81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		65F28AFE19E9A32600E74D81 /* PhotoFilters */ = {
 			isa = PBXGroup;
 			children = (
+				65E4D17819EA26BA00ECFC59 /* photo.jpg */,
 				65F28B0119E9A32600E74D81 /* AppDelegate.swift */,
 				65F28B0319E9A32600E74D81 /* ViewController.swift */,
 				65F28B0519E9A32600E74D81 /* Main.storyboard */,
@@ -194,6 +197,7 @@
 			files = (
 				65F28B0719E9A32600E74D81 /* Main.storyboard in Resources */,
 				65F28B0C19E9A32600E74D81 /* LaunchScreen.xib in Resources */,
+				65E4D17919EA26BA00ECFC59 /* photo.jpg in Resources */,
 				65F28B0919E9A32600E74D81 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +409,7 @@
 				65F28B1D19E9A32600E74D81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65F28B1E19E9A32600E74D81 /* Build configuration list for PBXNativeTarget "PhotoFiltersTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				65F28B2019E9A32600E74D81 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
